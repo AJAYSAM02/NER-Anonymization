@@ -91,4 +91,4 @@ def generate_ner_csv(input_csv_path, output_csv_path):
         writer.writerows(rows)
 
 
-generate_ner_csv("new_data.csv", "df.csv")
+generate_ner_csv("new_data.csv", "ner_with_tags.csv")
